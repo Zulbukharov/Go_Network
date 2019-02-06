@@ -47,7 +47,6 @@ func main() {
 	}
 	conn, err := net.DialIP("ip4:icmp", nil, addr)
 	checkError(err)
-
 	/*
 		The first byte is 8, standing for the echo message
 		The second byte is zero
